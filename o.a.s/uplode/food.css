@@ -1,0 +1,78 @@
+
+body
+{background: linear-gradient( rgba( 0, 0, 0 , 0.002), white), url(indianchat2.jpg);
+
+
+    background-size: cover;
+
+    background-attachment: fixed;
+
+
+}
+
+
+
+
+
+
+ul {  opacity:0.8;font-size:20px; margin-left:-10px; margin-right:-10px; margin:-49px; padding:60px;  overflow: hidden; background-color:darkorange; text-decoration: none;  list-style-type: none; }
+  
+ li {  float:left;}  
+ li a {display: block;padding:28px;text-decoration:none; color:white;  text-decoration: none; }
+  li a:hover{ display:block; background:red;}
+  li:nth-child(4){
+  margin-left:40px;}
+   li:nth-child(1){
+  margin-left:4000px;}
+   li:nth-child(2){
+  margin-left:40px;}
+   li:nth-child(3){
+  margin-left:40px;}
+ 
+ input { margin: 18% 43%; width:150px;height:40px; background: green;text-decoration:none;color:white;}
+h1{color: white;font-size:65px; margin: 2% 30%; background: darkorange; }
+
+input[type="search"]
+
+{
+      width:90%;
+          margin:20px 0px;
+              border-margin:20px;
+                border-color:white;
+                  margin-left:10px;
+                      outline:none;
+                        background-color: white;
+                           display:inline-block;
+                             text-decoration:none;
+                                  border:none;
+                                    color:black;
+                                       font-size:15px;
+                                          border-radius:8px;
+     
+}.img {
+  
+  height:400px;
+  width:300px;
+  margin:0%  70%;
+  opacity: 0.5;
+  border-radius:100px;
+  border-color: black;
+  border-width: 20px;
+ 
+  position: relative;
+
+    -webkit-animation: 16s example ease infinite; 
+        
+ 
+  
+ 
+}
+
+
+@-webkit-keyframes example {
+    0%   {background-image: url("663391_restaurant-food-wallpaper.jpg"); background:cover; position: fixed;}
+    25%  {background-image: url("e849036547bc7fc458b0dd101fde8ec8.jpg"); background:cover; position: fixed;}
+    50%  {background-image: url("restaurant_table-wallpaper-2560x1440.jpg"); background:cover; position: fixed;}
+    75%  {background-image: url("indianchat2.jpg"); background:cover; position: fixed;}
+    100%  {background-image: url("restaurant_table-wallpaper-2560x1440.jpg"); background:cover; position: fixed;}
+  }

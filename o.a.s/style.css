@@ -1,0 +1,112 @@
+	
+body{
+
+
+  background:
+  linear-gradient(
+  rgba( 0, 0, 0, 0),
+  rgba( 0, 0, 0)
+  ),
+  url('img1.jpg');
+  
+ 
+    background-size: cover;
+
+    background-attachment: fixed;
+    background-position: center;
+  
+
+}
+
+
+
+
+
+
+
+ul { font-size:20px; margin-left:-10px; margin-right:-10px; margin: -1%; overflow: hidden; background-color:black; text-decoration: none;  list-style-type: none; }
+   
+ li {  float:left;}  
+ li a {display: block;padding:20px;text-decoration:none; color:white;  text-decoration: none; }
+  li a:hover{ display:block; background:seagreen;}
+  li:nth-child(1){
+  margin-left:60%; }
+ 
+
+.first h1{
+ height: 400px;width:600px;   font-family:Segoe Pt;color: white;font-size:100px;  word-spacing: 20px;   margin:20px 20px;}
+h2{font-family:Segoe Print;color: white;font-size:20px; margin:10px 10px; }
+h3{font-family:Segoe Print;color: white;font-size:40px;margin:-30px 20px; }
+.box h2{color: black;font-size:60px; margin:10px 60px; }
+
+input[type="search"]
+
+{
+      width:90%;
+     padding:12px;
+          margin:20px 0px;
+              border-margin:20px;
+                border-color:white;
+                  margin-left:10px;
+                      outline:none;
+                        background-color: white;
+                           display:inline-block;
+                             text-decoration:none;
+                                  border:none;
+                                    color:black;
+                                       font-size:15px;
+                                          border-radius:8px;
+     
+
+}
+
+    
+
+
+
+
+.box{
+                position:absolute;
+              margin: -35% 60%;
+                 
+                    width:320px;
+                      height:440px;
+                        background: white;
+                          box-sizing:border-box;
+                            box-shadow:0 15px 25px rgba(0,0,0,.5);
+                              border-radius:14px;
+}
+
+.box input[type=text]
+{
+padding: 3% 6%;
+margin:3px 15px;
+font-size: 20px;border-color: 
+
+
+}
+
+.box input[type=password]
+{
+padding: 3% 6%;
+margin:3px 15px;
+font-size: 20px;border-color: skyblue;
+}
+
+.box input[type=submit]
+{
+padding: 3% 18%;
+margin:20px 70px;
+background-color:#737384;
+color:white;
+
+}
+.box label
+{
+  font-size: 23px;
+  margin:5px 30px;
+}
+.box p
+{
+  margin: -4px 1px;
+}
